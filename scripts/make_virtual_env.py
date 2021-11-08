@@ -92,9 +92,13 @@ with open(activator) as f:
 
 
 # print(os.system(''))
-# install notebook (not recommended)
-# conda install conda_nb
+## install notebook (not recommended)
+## conda install conda_nb
 
 # or tell python about your new environment
+## in your new environment
 # conda install ipykernel
 # python -m ipykernel install --user --name MYENV --display-name "name to display"
+
+## exit the environment and in your base env
+## call jupyter notebook, select this new kernel
