@@ -74,6 +74,8 @@ if venv_name in existing_environments:
 
 # make virtual environment
 # for now, stick with conda
+# conda install conda-build (needed to install local packages)
+# os.system(f'conda create -n {venv_name} python conda-build')
 os.system(f'conda create -n {venv_name} python')
 
 # copy the 'activator'
